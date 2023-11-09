@@ -1,0 +1,22 @@
+.container {
+	width: 84vw;
+	margin: 0 auto;
+}
+
+.heading_secondary {
+	width: 25vw;
+	font-size: 4vw;
+	font-family: "Big Shoulders Display", sans-serif;
+	font-weight: 900;
+}
+
+.image_import_styles {
+	flex-shrink: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.white_para {
+	color: var(--white) !important;
+}
