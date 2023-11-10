@@ -15,7 +15,7 @@ Welcome to the Art Gallery website, a modern platform showcasing inspiring art c
 
 ## See Project Live
 
-You can see EasyBank Landing Page, it's live in netlify [Click here](https://easybank-landing-page-abhishek.netlify.app).
+You can see Art Gallery Project, it's live in netlify [Click here](https://art-gellary-abhishek.netlify.app/).
 
 ## Features
 
