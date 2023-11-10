@@ -3,6 +3,14 @@
 	margin: 0 auto;
 }
 
+.heading_primary {
+	font-family: "Big Shoulders Display", sans-serif;
+	font-size: 6vw;
+	font-weight: 900;
+	mix-blend-mode: difference;
+	color: var(--white);
+}
+
 .heading_secondary {
 	width: 25vw;
 	font-size: 4vw;
@@ -17,6 +25,31 @@
 	background-repeat: no-repeat;
 }
 
+.para {
+	color: var(--dark_Grey, #444);
+	font-family: "Outfit", sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	margin-bottom: 6vh;
+	line-height: 1.4;
+}
+
 .white_para {
 	color: var(--white) !important;
+}
+
+.gallery_para {
+	width: 22vw !important;
+	margin-top: 3vh;
+}
+
+.btn {
+	text-decoration: none;
+	padding: 1.94vw 2.5vw;
+	color: var(--White, #fff);
+	background-color: var(--almost_black);
+	font-family: "Big Shoulders Display", sans-serif;
+	font-size: 1.5vw;
+	font-weight: 800;
+	letter-spacing: 0.25725vw;
 }

@@ -13,12 +13,19 @@
 			rel="stylesheet"
 		/>
 
+		<!-- Import FontAwesome -->
+		<script
+			src="https://kit.fontawesome.com/a1d533cc89.js"
+			crossorigin="anonymous"
+		></script>
+
 		<!-- CSS Links -->
 		<link rel="stylesheet" href="./src/css/reset.css" />
 		<link rel="stylesheet" href="./src/css/utility.css" />
 		<link rel="stylesheet" href="./src/css/style.css" />
 	</head>
 	<body>
+		<!-- HERO SECTION -->
 		<div class="hero_section">
 			<div class="hero_container">
 				<div class="hero_black_box"></div>
@@ -46,18 +53,24 @@
 						from a spark of inspiration. Will these pieces inspire you? Visit us
 						and find out.
 					</p>
-					<div class="btn_box">
-						<button class="btn">OUR LOCATION</button>
+					<div
+						id="location"
+						class="btn_box to_location"
+						onclick="to_location()"
+					>
+						<a id="location" class="btn" href="./src/location.html"
+							>OUR LOCATION</a
+						>
 						<img
 							class="btn_logo btn_logo_cream"
 							src="./src/images/btn_logo_cream.png"
 							alt="btn_logo_cream"
 						/>
-						<!-- <img
+						<img
 							class="btn_logo btn_logo_black"
 							src="./src/images/btn_logo_black.png"
 							alt="btn_logo_black"
-						/> -->
+						/>
 					</div>
 				</div>
 			</div>
@@ -91,6 +104,8 @@
 				</div>
 			</div>
 		</main>
+
+		<!-- FOOTER SECTION -->
 		<footer class="footer_section">
 			<div class="container">
 				<div class="footer_box">
@@ -103,12 +118,16 @@
 						The Modern Art Gallery is free to all visitors and open seven days a
 						week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
 					</p>
-					<img
-						src="./src/images/social_media_logo.png"
-						alt="Social_media_logo"
-					/>
+					<div class="media_box">
+						<i class="fb_logo fa-brands fa-square-facebook fa_logo"></i>
+						<i class="insta_logo fa-brands fa-instagram fa_logo"></i>
+						<i class="twitter_logo fa-brands fa-twitter fa_logo"></i>
+					</div>
 				</div>
 			</div>
 		</footer>
+
+		<!-- Script -->
+		<script src="./src/scripts/script.js"></script>
 	</body>
 </html>

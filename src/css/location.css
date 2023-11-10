@@ -1,0 +1,109 @@
+/** @format */
+
+/* MAP */
+.location_map {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.rotated_logo {
+  transform: rotate(180deg);
+}
+.go_back_btn {
+  position: absolute;
+  top: 0;
+  left: 8%;
+}
+
+/* LOCATION DESCRIPTION SECTION */
+.location_description_section {
+  background-color: var(--almost_black);
+}
+
+.location_description_box {
+  display: flex;
+  padding: 15vh 0;
+}
+
+.location_text_box,
+.location_description {
+  width: 50%;
+}
+
+.location_title {
+  color: var(--gold, #d5966c);
+  font-family: "Big Shoulders Display", sans-serif;
+  font-size: 2.5vw;
+  font-weight: 900;
+  line-height: 2.25rem;
+  margin-bottom: 3vh;
+}
+
+.location_text {
+  color: var(--white);
+  font-size: 4.8vw;
+  width: 20vw;
+}
+
+.white_para {
+  margin-bottom: 4vh;
+}
+
+/* LOCATION FOOTER SECTION*/
+.black_para {
+  color: var(--almost_black);
+}
+
+.footer_section {
+  background-color: var(--gold);
+}
+
+.media_box {
+  color: var(--almost_black);
+}
+
+.fa_logo:hover {
+  color: var(--white);
+}
+
+/* MEDIA QUERY */
+@media (max-width: 768px) {
+  .white_para,
+  .black_para {
+    font-size: 14px;
+  }
+
+  .go_back_btn {
+    left: 4%;
+  }
+}
+
+@media (max-width: 425px) {
+  .location_description_box {
+    display: block;
+    padding: 8vh 0 6vh 0;
+  }
+
+  .go_back_btn {
+    left: 0;
+  }
+
+  .location_text {
+    font-size: 12vw;
+    font-weight: 800;
+    width: 84vw;
+    margin-bottom: 6vh;
+  }
+
+  .location_title {
+    font-size: 6vw;
+    font-weight: 800;
+    line-height: 2.25rem;
+    margin-bottom: 4vh;
+  }
+
+  .white_para {
+    width: 84vw;
+  }
+}

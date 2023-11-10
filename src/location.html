@@ -1,0 +1,103 @@
+<!-- @format -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Art Gallery : Location</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=Outfit:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Import FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/a1d533cc89.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/utility.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/location.css" />
+  </head>
+
+  <body>
+    <!-- IMPORT MAP -->
+    <iframe
+      class="location_map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3520.0389358821144!2d-71.3130266331732!3d41.47903010494456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5af5d9ad9f351%3A0x9bf38f9aed123934!2s99%20King%20St%2C%20Newport%2C%20RI%2002840%2C%20USA!5e0!3m2!1sen!2sin!4v1699605416770!5m2!1sen!2sin"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+    <div id="location" class="btn_box go_back_btn" onclick="go_to_home()">
+      <img
+        class="btn_logo btn_logo_cream rotated_logo"
+        src="./images/btn_logo_cream.png"
+        alt="btn_logo_cream"
+      />
+      <img
+        class="btn_logo btn_logo_black rotated_logo"
+        src="./images/btn_logo_black.png"
+        alt="btn_logo_black"
+      />
+      <a class="btn" href="../index.html">OUR LOCATION</a>
+    </div>
+
+    <!-- LOCATION DESCRIPTION SECTION -->
+    <main class="location_description_section">
+      <div class="container">
+        <div class="location_description_box">
+          <div class="location_text_box">
+            <h1 class="location_text heading_primary">OUR LOCATION</h1>
+          </div>
+          <div class="location_description">
+            <h2 class="location_title">99 King Street</h2>
+            <p class="para white_para">
+              Newport<br />
+              RI 02840<br />
+              United States of America
+            </p>
+            <p class="para white_para">
+              Our newly opened gallery is located near the Edward King House on
+              99 King Street, the Modern Art Gallery is free to all visitors and
+              open seven days a week from 8am to 9pm.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer_section">
+      <div class="container">
+        <div class="footer_box">
+          <img
+            class="footer_logo"
+            src="./images/location_footer_main_logo.png"
+            alt="Modern Art Gallery Logo"
+          />
+          <p class="para black_para footer_para">
+            The Modern Art Gallery is free to all visitors and open seven days a
+            week from 8am to 9pm. Find us at 99 King Street, Newport, USA.
+          </p>
+          <div class="media_box">
+            <i class="fb_logo fa-brands fa-square-facebook fa_logo"></i>
+            <i class="insta_logo fa-brands fa-instagram fa_logo"></i>
+            <i class="twitter_logo fa-brands fa-twitter fa_logo"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
