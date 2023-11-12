@@ -3,11 +3,12 @@
 /* MAP */
 .location_map {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
   position: relative;
 }
 
 .rotated_logo {
+  margin-right: -2px;
   transform: rotate(180deg);
 }
 .go_back_btn {

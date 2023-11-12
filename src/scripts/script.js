@@ -5,7 +5,6 @@ const btn_logo_cream = document.querySelector(".btn_logo_cream")
 
 
 location_btn.addEventListener("mouseenter", () => {
-    console.log("mouse Enter");
     btn.style.backgroundColor = "#d5966c"
     btn_logo_cream.style.display = "none";
     btn_logo_black.style.display = "block"
