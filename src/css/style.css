@@ -67,7 +67,7 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  gap: 2vw;
+  gap: 20px;
   margin: 8vw 0;
 }
 
@@ -87,20 +87,21 @@
 .table_img {
   grid-column: 1/4;
   grid-row: 2/4;
-  width: 49.5vw;
-  height: 100vh;
+  width: 50vw;
+  height: 111vh;
   background-image: url(../images/table_desktop.png);
 }
 
 .porch_img {
   grid-column: 4/-1;
-  width: 32vw;
-  height: 19.5625rem;
+  width: 32.2vw;
+  height: 54vh;
   align-self: self-start;
   background-image: url(../images/porch_desktop.png);
 }
 
 .gallery_description_2 {
+  height: 52.5vh;
   grid-column: 4/-1;
   color: var(--white) !important;
   background-color: var(--almost_black);
@@ -150,10 +151,6 @@
     font-size: 18px;
     line-height: 1.3;
   }
-
-  .table_img {
-    height: 108vh;
-  }
 }
 
 @media (max-width: 768px) {
@@ -183,12 +180,6 @@
     line-height: 1.3;
     width: 46vw;
     margin-bottom: 3vh;
-  }
-
-  /* GALLERY SECTION @768px */
-  .table_img {
-    height: 98vh;
-    background-image: url(../images/table_tablet.png);
   }
 
   .porch_img {
@@ -270,24 +261,21 @@
 
   .gallery_img {
     width: 100%;
-    height: 20rem;
-    background-image: url(../images/art_gallery_mobile.jpg);
   }
 
-  .gallery_description_1 {
+  .gallery_description_1,
+  .porch_img {
+    width: 100%;
+
     margin: 5vw 0;
   }
 
   .table_img {
     width: 100%;
-    height: 30rem;
-    background-image: url(../images/table_mobile.png);
   }
 
   .porch_img {
     width: 100%;
-    height: 12.5rem;
-    background-image: url(../images/porch_mobile.png);
     margin: 5vw 0;
   }
 
